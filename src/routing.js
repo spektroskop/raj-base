@@ -1,5 +1,9 @@
 import { createRoutes } from "tagged-routes"
 
+if (!window.location.hash) {
+    window.location.hash = "/"
+}
+
 const routes = createRoutes({ Home: "/", Other: "/other" }, "NotFound")
 
 export const Route = routes.Route

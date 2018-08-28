@@ -9,10 +9,6 @@ import normalize from "styled-normalize"
 import HeaderProgram from "./programs/Header"
 import PageProgram from "./programs/Page"
 
-if (!window.location.hash) {
-    window.location.hash = "/"
-}
-
 injectGlobal`
     ${normalize}
 
