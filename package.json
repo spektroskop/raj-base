@@ -1,0 +1,31 @@
+{
+    "name": "raj",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "raj": "^1.0.0",
+        "raj-compose": "^0.0.7",
+        "raj-react": "^0.0.7",
+        "raj-spa": "^0.0.14",
+        "raj-subscription": "^0.0.2",
+        "react": "^16.4.2",
+        "react-dom": "^16.4.2",
+        "react-scripts": "1.1.5",
+        "styled-components": "^3.4.5",
+        "styled-normalize": "^8.0.0",
+        "tagged-routes": "^0.0.3",
+        "tagmeme": "^0.0.7"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "prettier": {
+        "jsxBracketSameLine": true,
+        "semi": false,
+        "tabWidth": 4,
+        "trailingComma": "all"
+    }
+}
