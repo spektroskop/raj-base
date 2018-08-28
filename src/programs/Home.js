@@ -2,39 +2,13 @@ import React from "react"
 import { Route, getURLForRoute } from "../routing"
 import { union } from "tagmeme"
 import styled from "styled-components"
+import { Row, Column } from "../util"
 
-const Container = styled.div`
-    display: flex;
-    flex-direction: column;
-    & > * {
-        margin-bottom: 10px;
-        &:last-child {
-            margin-bottom: 0;
-        }
-    }
-`
+const Container = styled(Column({ spacing: 10 }))``
 
-const Counter = styled.div`
-    display: flex;
-    flex-direction: row;
-    & > * {
-        margin-right: 10px;
-        &:last-child {
-            margin-right: 0;
-        }
-    }
-`
+const Counter = styled(Row({ spacing: 10 }))``
 
-const Control = styled.div`
-    display: flex;
-    flex-direction: row;
-    & > * {
-        margin-right: 10px;
-        &:last-child {
-            margin-right: 0;
-        }
-    }
-`
+const Control = styled(Row({ spacing: 10 }))``
 
 const Msg = union(["Increment", "Decrement", "Reset"])
 

@@ -22,6 +22,8 @@ injectGlobal`
 
 const Content = styled.div`
     padding: 12px 10px 8px 10px;
+    display: flex;
+    align-items: flex-start;
 `
 
 const Program = Raj.program(React.Component, () =>
